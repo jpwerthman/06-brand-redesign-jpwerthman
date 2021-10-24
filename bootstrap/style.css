@@ -1,0 +1,22 @@
+
+p{
+  margin: auto;
+color: white;
+  }
+  .thumb
+  {padding: 20px 10px; 
+    text-align: left; 
+    background:rgb(54, 54, 54);
+    display: flex;
+    
+  }
+  
+  .container-fluid, .container{
+    margin: 0px auto; 
+    height: 60px;}
+    .footwear{
+      padding: 0px 0px; 
+    text-align: left; 
+    background:rgb(54, 54, 54);
+    display: flex;
+    }
