@@ -3,20 +3,55 @@ p{
   margin: auto;
 color: white;
   }
+  a{
+  margin: auto;
+color: white;
+text-decoration: none;
+}
   .thumb
   {padding: 20px 10px; 
+    text-align: left; 
+    background:rgb(54, 54, 54);
+    display: flex; 
+  }
+
+  .header{
+    padding: 20px 60px; 
     text-align: left; 
     background:rgb(54, 54, 54);
     display: flex;
     
   }
-  
+  .bottom{
+    display: flex;
+    flex-flow: column;
+    margin-left: 0px;
+    padding-left: 0px
+    
+  }
+  .box{
+    display: flex;
+    width: 1230px;
+    height: 400px;
+    
+    overflow-x: scroll;
+   
+  }
+  #logo{
+    position: relative;
+    right: 60px;
+    background-color: black;
+    opacity: .22;
+  }
   .container-fluid, .container{
     margin: 0px auto; 
     height: 60px;}
+    
     .footwear{
       padding: 0px 0px; 
     text-align: left; 
     background:rgb(54, 54, 54);
     display: flex;
+    
+    
     }
