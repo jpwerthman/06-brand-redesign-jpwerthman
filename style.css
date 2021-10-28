@@ -14,21 +14,32 @@ text-decoration: none;
     background:rgb(54, 54, 54);
     display: flex; 
   }
-
+  .thing
+  {padding: 0px 0px; 
+    text-align: left; 
+    background:rgb(54, 54, 54);
+    margin: 0px; 
+  }
   .header{
-    padding: 20px 60px; 
+    padding: 20px 10px; 
     text-align: left; 
     background:rgb(54, 54, 54);
     display: flex;
+    justify-content: space-evenly;
     
   }
-  .bottom{
-    display: flex;
-    flex-flow: column;
-    margin-left: 0px;
-    padding-left: 0px
-    
+  .thumb2{
+    padding: 20px 60px; 
+    text-align: left; 
+    background:rgb(54, 54, 54);
+    height:fit-content;  
   }
+  button{
+    background-attachment: rgb(54, 54, 54);
+    color: rgb(54, 54, 54) ;
+    border: none;
+  }
+  
   .box{
     display: flex;
     width: 1230px;
@@ -52,6 +63,34 @@ text-decoration: none;
     text-align: left; 
     background:rgb(54, 54, 54);
     display: flex;
+    }
+    .invert{
+      -webkit-filter: invert(1);
+   filter: invert(1);
+   position: relative;
+   top: -72px;
+   z-index: -1;
+    }
     
-    
+    .reg2{
+      display: flex;
+      justify-content: space-evenly;
+      
+    }
+    .inverted{
+      display: flex;
+      justify-content: space-evenly;
+      
+      -webkit-filter: invert(1);
+   filter: invert(1);
+   position: relative;
+   top: -39px;
+   z-index: -1;
+    }
+    .cprt{
+      top: -72px;
+
+    }
+    h3{
+      color: white;
     }
